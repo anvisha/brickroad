@@ -1,0 +1,8 @@
+This is an extension developed to record and publish sequences browsed by a user while learning about different topics online.
+
+Instructions:
+1. Navigate to chrome://extensions. Make sure "Developer Mode" on the upper right hand corner is checked off.
+2. Click "Load Unpacked Extension" and upload the folder that contains extension.
+3. Make sure extension is enabled.
+4. Click on "Inspect Views: generated_background_page.html" to pull up a console.
+5. Continue browsing.
