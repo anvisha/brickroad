@@ -7,7 +7,8 @@
 
   "permissions": [
     "http://*/*",
-    "history"
+    "history",
+    "tabs"
   ],
 
   "background": {
