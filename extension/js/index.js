@@ -1,12 +1,9 @@
+console.log("hi!");
+chrome.history.onVisited.addListener(processHistory);
 
-function processHistory(results) {
-    window.console.log(results);
+function processHistory(result) {
+	console.log(result);
     }
 
-function getHistory() {
-    var currTime = getTime();
-    var query = new Object();
-    query.text = "";
-    query.startTime = currTime;
-    chrome.history.search(query, processHistory);
-    }
+
+
