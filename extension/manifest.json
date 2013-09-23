@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "BrickRoad",
+  "description": "This extension records and uploads browsing sessions",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+  },
+
+  "permissions": [
+    "http://*/*",
+    "history",
+  ],
+
+  "content_scripts": [
+    {
+     "js": ["js/index.js"]
+    }
+  ]
+}
